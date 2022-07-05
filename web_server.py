@@ -7,7 +7,7 @@ from socketserver import TCPServer
 from urllib.parse import unquote
 
 TCPServer.allow_reuse_address = True
-
+#test
 class MyRequestHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         MOVE_PREFIX = '/move/'
